@@ -1,0 +1,10 @@
+scikit-learn==1.4.2
+streamlit
+pandas==2.2.2
+joblib==1.4.2
+dill
+matplotlib==3.8.4
+seaborn
+openai
+filelock
+plotly
