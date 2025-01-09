@@ -13,7 +13,7 @@ import plotly.express as px
 from PIL import Image
 
 # Load API key from Streamlit Secrets
-api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["general"]["OPENAI_API_KEY"]
 client = openai.OpenAI(api_key=api_key)
 
 # File paths
