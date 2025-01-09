@@ -182,7 +182,7 @@ if 'user_id' not in st.session_state:
 
 # Login Page
 def login_page():
-    st.title("💜 FitnessDashboard")
+    st.title("💜 BeHealthy")
     st.subheader("Please enter your User ID to continue")
     user_id = st.text_input("User ID", placeholder="e.g., 12345")
 
@@ -243,7 +243,7 @@ def sidebar_menu():
         st.session_state["active_page"] = "About"
 
     # Sidebar Footer
-    st.sidebar.markdown('<div class="sidebar-footer">&copy; 2025 My Company</div>', unsafe_allow_html=True)
+    st.sidebar.markdown('<div class="sidebar-footer">&copy; 2025 BeHealthy</div>', unsafe_allow_html=True)
 
     return st.session_state["active_page"]
 
